@@ -2,8 +2,12 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    background-color:darkcyan;
     
+    
+}
+
+body {
+    background-color:darkcyan;
 }
 
 #main-container {
@@ -22,6 +26,11 @@
 
 #list {
  text-align: left;
+}
+
+#show-facts-button {
+    border-radius: 20px;
+    background-colour: white;
 }
 
 
