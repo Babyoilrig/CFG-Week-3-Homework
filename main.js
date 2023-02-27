@@ -1,16 +1,10 @@
-const showFactsButton = document.getElementById("show-facts-button");
+console.log("Hi, I'm working!");
+// const newParagraph = document.createElement('p');
+// newParagraph.innterHTML = "Cat was here!";
+// // newParagraph.style.color = "green";
+// document.body.appendChild(newParagraph);
 
-// showFactsButton.addEventListener("click", showFacts());
-
-function showFacts() {
-    console.log("I have been clicked!");
-    var factsContainer = document.getElementById("factsContainer");
-    if (factsContainer.style.display === "none") {
-      factsContainer.style.display = "block";
-    } else {
-      factsContainer.style.display = "none";
-    }
-  }
-
-  //This isn't working atm - need to append child??
-  //Also on page the load the image is really big for some reason
+const newh1 = document.createElement('h1');
+newh1.innerText = "Cat woz ere!";
+newh1.style.color = "red";
+document.body.appendChild(newh1);

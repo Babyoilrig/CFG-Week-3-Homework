@@ -2,35 +2,6 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    
-    
-}
-
-body {
-    background-color:darkcyan;
-}
-
-#main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#intro-container {
-    text-align: center;
-}
-
-.facts-container {
-    text-align: center;
-}
-
-#list {
- text-align: left;
-}
-
-#show-facts-button {
-    border-radius: 20px;
-    background-colour: white;
 }
 
 
